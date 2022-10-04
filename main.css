@@ -38,3 +38,13 @@ a:hover{
     display: flex;
     justify-content: center;
 }
+
+.news__section-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.new__section-title{
+    align-items: center;
+    text-align: center;
+}
