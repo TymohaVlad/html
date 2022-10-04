@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
     <title>Vladyslav Tymosenko</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <section class="navigation__section">
-            <nav class="navigation">
-                <ul class="nav__list">
-                    <a href="#">
-                        <li>Home</li>
-                    </a>
-                    <a href="#">
-                        <li>About me</li>
-                    </a>
-                    <a href="#">
-                        <li>My Projects</li>
-                    </a>
-                    <a href="#">
-                        <li>Contacts</li>
-                    </a>
-                </ul>
-            </nav>
-            <div class="header__content">
-                <h1>Hello friends</h1>
-                <img class="header__img" src="./img/arestovich_c++.png" alt="arestovich">
-                <p>This guy is sure that you can learn the C++ programming language in 2-3 weeks.
-                    Is it true?</p>
+      <section class="navigation__section">
+        <nav class="navigation">
+          <ul class="nav__list">
+            <a href="#">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li>About me</li>
+            </a>
+            <a href="#">
+              <li>My Projects</li>
+            </a>
+            <a href="#">
+              <li>Contacts</li>
+            </a>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <h1>Hello friends</h1>
+          <img
+            class="header__img"
+            src="./img/arestovich_c++.png"
+            alt="arestovich"
+          />
+          <p>
+            This guy is sure that you can learn the C++ programming language in
+            2-3 weeks. Is it true?
+          </p>
+        </div>
+        <form class="header__form" action="#" method="get">
+          <div class="header__form-choise">
+            <p class="header__choise__text">True or False <br />you choise</p>
+            <div class="choise">
+              <input type="radio" name="boolean" value="true" />True
+              <input type="radio" name="boolean" value="false" />False
             </div>
-            <form>
-                </label> <input type="radio">
-                <label for="true__lable">True?</label>
-                </label> <input type="radio">
-                <label for="false__lable">False?</label>
-
-            </form>
-        </section>
+            <div class="button__submit">
+              <button class="send__choise">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+      </section>
     </header>
-    <main>
-        <section class="container__content">
-            <div class="content">
-                <h3>About me</h3>
-
+    <main class="main">
+      <section class="container">
+        <div class="container__content">
+            <div class="container__content-title">
+                <h3>Registration</h3>
+                <p>Please enter your details</p>
             </div>
-        </section>
+            <form action="#" method="get">
+                <div class="name">
+                    <p>Name</p>
+                    <input placeholder="Name" tabindex="1" type="text" name="username">
+                </div>
+                <div class="e-mail">
+                    <p>E-mail</p>
+                    <input placeholder="E-mail" tabindex="2" type="text" name="e-mail">
+                </div>
+                <div class="password">
+                    <p>Password</p>
+                    <input placeholder="Password" tabindex="3" type="password" name="userpassword">
+                </div>
+                <div class="phone">
+                    <p>Phone</p>
+                    <input placeholder="Phone" tabindex="4" type="tel" name="userphone">
+                </div>
+                
+            </form>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>

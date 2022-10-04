@@ -11,7 +11,7 @@ a:hover{
 .navigation{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .nav__list{
     display: flex;
@@ -22,4 +22,19 @@ a:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.header__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__choise__text{
+    text-align: center;
+}
+.choise{
+    display: flex;
+}
+.button__submit{
+    display: flex;
+    justify-content: center;
 }
