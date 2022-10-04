@@ -1,0 +1,25 @@
+.header__img{
+    width: 300px;
+    height: 290px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: tomato;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
